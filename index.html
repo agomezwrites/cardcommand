@@ -291,6 +291,15 @@ body{background:var(--bg);color:var(--txt);font-family:'Outfit',sans-serif;min-h
 .toast{position:fixed;bottom:90px;left:50%;transform:translateX(-50%) translateY(20px);background:var(--txt);color:var(--bg);padding:11px 20px;border-radius:11px;font-size:.78rem;font-weight:700;z-index:500;opacity:0;transition:all .3s;white-space:nowrap;pointer-events:none;max-width:90vw;text-align:center}
 .toast.on{opacity:1;transform:translateX(-50%) translateY(0)}
 #confetti{position:fixed;inset:0;pointer-events:none;z-index:400}
+
+/* EMAIL SIGNUP BANNER */
+.signup-banner{background:linear-gradient(135deg,rgba(74,222,128,.1),rgba(56,189,248,.07));border:1px solid rgba(74,222,128,.25);border-radius:18px;padding:20px;margin-bottom:14px;text-align:center}
+.sb-icon{font-size:1.8rem;margin-bottom:8px}
+.sb-title{font-size:1rem;font-weight:800;letter-spacing:-.3px;margin-bottom:5px}
+.sb-sub{font-size:.78rem;color:var(--txt2);line-height:1.55;margin-bottom:14px;max-width:320px;margin-left:auto;margin-right:auto}
+.sb-btn{display:inline-block;background:var(--grn);color:#031a0a;border:none;border-radius:12px;padding:13px 24px;font-family:'Outfit',sans-serif;font-weight:900;font-size:.9rem;cursor:pointer;text-decoration:none;transition:all .2s}
+.sb-btn:hover{opacity:.88;transform:translateY(-1px);box-shadow:0 8px 24px rgba(74,222,128,.3)}
+.sb-note{font-size:.65rem;color:var(--mut);margin-top:8px;font-family:'JetBrains Mono',monospace;letter-spacing:.5px}
 </style>
 </head>
 <body>
@@ -338,6 +347,15 @@ body{background:var(--bg);color:var(--txt);font-family:'Outfit',sans-serif;min-h
     </div>
   </div>
 
+
+  <!-- EMAIL SIGNUP BANNER -->
+  <div class="signup-banner">
+    <div class="sb-icon">📬</div>
+    <div class="sb-title">Get Credit Tips & Updates</div>
+    <div class="sb-sub">Join the CardCommand community. Get weekly tips to improve your score, reduce debt, and make smarter payments.</div>
+    <a class="sb-btn" href="https://cardcommandapp.beehiiv.com/subscribe" target="_blank" rel="noopener">Join Free — No Spam Ever →</a>
+    <div class="sb-note">Free forever · Unsubscribe anytime</div>
+  </div>
   <div class="panel">
     <div class="ptitle" style="margin-bottom:14px">What's Affecting Your Score</div>
     <div class="sf-item">
